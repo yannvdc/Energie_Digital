@@ -19,7 +19,7 @@
                 <div style="background-color:rgba(0,0,0,0.5);padding: 20px">
                     <form method="post" enctype="multipart/form-data">
                         {% csrf_token %}
-                        <input type="number" step = 1 min = 1 max = 20 name="nCycle" value={{ nCycle }} style = color:blue>
+                        <input type="number" step = 1 min = 1 max = 20 name="nCycle" value={{ nCycle }} style= color:blue>
                         {{ chart|safe }}
                     <form>
                 </div>
